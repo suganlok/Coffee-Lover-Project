@@ -1,0 +1,106 @@
+@media all and (max-width: 992px) {
+    #nav {
+        position: fixed;
+        top: 0;
+        left: -320px;
+        width: 320px;
+        padding: 30px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        background-color: #000;
+        height: 100vh;
+    }
+    #openmenu,
+    #closemenu {
+        display: inline-block;
+    }
+    .wrapper.home-content>div {
+        width: 100%;
+        text-align: center;
+    }
+    #closemenu {
+        float: right;
+    }
+    #nav .menu {
+        clear: both;
+        margin-top: 50px;
+    }
+    #nav .menu li {
+        float: none;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .title-center {
+        max-width: 992px;
+    }
+    #about-us .wrapper.flex-row {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+    }
+    .wrapper.flex-row .chefs-item,
+    .menu-item.flex-row .single-menu-item {
+        width: calc(50% - 20px);
+        margin-bottom: 30px;
+    }
+    .wrapper.flex-row.gallery-item a {
+        width: 50%;
+    }
+    .booking-form {
+        padding-right: 0px;
+        margin-bottom: 30px;
+    }
+    .working-hours,
+    .booking-form,
+    .wrapper.flex-row .about-content,
+    .wrapper.flex-row .about-img {
+        width: 100%;
+    }
+    .flex-row.wrapp-contacts>div {
+        width: 50%;
+    }
+    .footer-social {
+        -webkit-box-pack: start;
+        -ms-flex-pack: start;
+        justify-content: flex-start;
+    }
+    .footer-social li {
+        margin-right: 30px;
+    }
+    .wrapper.flex-row .about-content {
+        padding-left: 0px;
+        margin-bottom: 30px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .wrapper.home-content h1 {
+        font-size: 50px;
+    }
+    #special-dishes .title-center h2,
+    .wrapper.flex-row .about-content h2,
+    #offer h2,
+    #chefs .title-center h2,
+    #menu .title-center h2,
+    #gallery .title-center h2,
+    #booking-table .title-center h2,
+    #contacts .title-center h2 {
+        font-size: 30px;
+    }
+    .working-hours h3 {
+        font-size: 25px;
+        
+    }
+    .advantage.flex-row>div,
+    .wrapper.flex-row .chefs-item,
+    .menu-item.flex-row .single-menu-item,
+    .wrapper.flex-row.gallery-item a,
+    .wrapp-input-group.flex-row>div,
+    .flex-row.wrapp-contacts>div {
+        width: 100%;
+    }
+    .menu-item.flex-row .single-menu-item {
+        margin-right: 0px;
+    }
+}
